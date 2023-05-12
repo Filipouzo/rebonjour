@@ -56,7 +56,7 @@ ROOT_URLCONF = 'rebonjour.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'rebonjour/templates')],
+        'DIRS': ['rebonjour/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
